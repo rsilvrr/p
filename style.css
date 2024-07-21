@@ -8,7 +8,7 @@ html {
 }
 
 body {
-	background: #222222;
+	background: #151515;
 	color: #eeeeee;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	padding-bottom: 5%;
@@ -33,19 +33,19 @@ hr {
 }
 
 strong {
-	color: #ce2f4e
+	color: #3dbceb
 }
 
 .quote {
 	font-style: italic;
-	color: #ce2f4e;
+	color: #3dbceb;
 	font-size: larger;
 	font-weight: bolder
 }
 
 nav {
 	overflow: hidden;
-	background-color: #444444;
+	background-color: #333333;
 	top: 0;
 	width: 100%;
 	display: flex;
@@ -74,7 +74,7 @@ nav ul li a {
 	text-decoration: none;
 	transition: background-color ease 0.2s;
 	padding: 0.75rem 1rem;
-	color: #fafafa
+	color: #cccccc
 }
 
 nav ul li a:hover {
@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:hover {
-	background-color: #ce2f4e
+	/* background-color: #268ca0 */
 }
 
 nav ul li button {
@@ -95,6 +95,10 @@ nav ul li button {
 	height: 49px;
 	width: 49px;
 	transition: background-color ease 0.2s
+}
+
+nav ul li img {
+	max-height: 24px;
 }
 
 nav ul li button:hover {
@@ -111,7 +115,7 @@ nav ul li .icon i {
 }
 
 nav ul .title {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 	text-align: center;
 	border-radius: 0.5rem;
@@ -575,4 +579,20 @@ footer p {
 
 .header video {
 	width: 50%;
+}
+
+.about {
+	padding-left: 25%;
+	padding-right: 25%;
+	font-size: 1.25rem;
+}
+
+.about p {
+	padding-top: 2rem;
+}
+
+.about img {
+	max-height: 128px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
